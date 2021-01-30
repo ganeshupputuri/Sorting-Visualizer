@@ -1,9 +1,9 @@
 const express = require('express')
-
-const app = express();
-
-app.use(express.static('static'))
+const app = express()
 const port = process.env.PORT || 3000
+
+app.use(express.static(`${__dirname}/static`));
+
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
-  })
+ console.log('Server is up on port ' + port)
+})
