@@ -1,0 +1,15 @@
+{
+  "name": "sorting",
+  "version": "1.0.0",
+  "description": "\"Visualizes how sorting works internally\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ganesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "heroku": "^7.47.11"
+  }
+}
